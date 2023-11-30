@@ -4,8 +4,6 @@
  */
 package top_ink;
 
-import VIEW.index;
-
 /**
  *
  * @author walid
@@ -17,9 +15,8 @@ public class Top_Ink {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        index frm= new index();
-        boolean visible = true;
-        frm.setVisible(visible);
+        Vue.index frm = new Vue.index();
+        frm.setVisible(true);
     }
     
 }

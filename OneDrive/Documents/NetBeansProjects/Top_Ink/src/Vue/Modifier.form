@@ -57,10 +57,10 @@
                   <Group type="103" groupAlignment="0" max="-2" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
                           <Component id="jComboBox1" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace type="separate" max="-2" attributes="0"/>
-                          <Component id="jMonthChooser1" min="-2" pref="100" max="-2" attributes="0"/>
                           <EmptySpace max="32767" attributes="0"/>
-                          <Component id="jYearChooser1" min="-2" max="-2" attributes="0"/>
+                          <Component id="jMonthChooser2" min="-2" pref="100" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="jYearChooser2" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <Component id="jTextField6" alignment="0" min="-2" pref="293" max="-2" attributes="0"/>
                       <Component id="jTextField7" alignment="0" min="-2" pref="293" max="-2" attributes="0"/>
@@ -114,13 +114,13 @@
                           <Component id="jTextField4" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="103" alignment="0" groupAlignment="0" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
                               <Component id="jComboBox1" alignment="1" min="-2" max="-2" attributes="0"/>
                               <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
                           </Group>
-                          <Component id="jYearChooser1" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="jMonthChooser1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jYearChooser2" min="-2" max="-2" attributes="0"/>
+                          <Component id="jMonthChooser2" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="0" attributes="0">
@@ -191,16 +191,12 @@
         <Property name="text" type="java.lang.String" value="Model :"/>
       </Properties>
     </Component>
-    <Component class="com.toedter.calendar.JYearChooser" name="jYearChooser1">
-    </Component>
     <Component class="javax.swing.JTextField" name="jTextField1">
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel9">
       <Properties>
         <Property name="text" type="java.lang.String" value="Prenom : "/>
       </Properties>
-    </Component>
-    <Component class="com.toedter.calendar.JMonthChooser" name="jMonthChooser1">
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel3">
       <Properties>
@@ -284,6 +280,10 @@
       <Events>
         <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabel11MouseClicked"/>
       </Events>
+    </Component>
+    <Component class="com.toedter.calendar.JYearChooser" name="jYearChooser2">
+    </Component>
+    <Component class="com.toedter.calendar.JMonthChooser" name="jMonthChooser2">
     </Component>
   </SubComponents>
 </Form>
